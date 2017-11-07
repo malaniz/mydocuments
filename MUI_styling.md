@@ -52,10 +52,10 @@ Summarizing, JSS in MUI is a good solution for themes and to make exactly what
 they need to customize components in a maintainable and performant way.
 It can be used with another styling techniques but at the end you'll need to
 customize the MUI components with JSS and maybe your layouts or html elements
-or macro components with another approach. If you don't make follow this approach, you'll
+or macro components with another approach. If you don't follow this approach, you'll
 break a lot of new features that will come with the @next version.
 
-Possible solution
+Possible solutions
 =================
 Right now, I just figure out 2 ways to make it:
 
