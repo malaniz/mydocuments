@@ -59,8 +59,8 @@ Possible solution
 =================
 Right now, I just figure out 2 ways to make it:
 
-1. A complete theme for material-UI following the MUI guidelines and customize
-not MUI things with css-modules or another css based technique.
+1. A complete theme for material-UI following the MUI guidelines with JSS and customize
+not MUI components with css-modules or another css based technique.
 
 2. A totally JSS based solution. Maybe using dot jss files to make the styling
 object there and simulating something like JSS modules.
