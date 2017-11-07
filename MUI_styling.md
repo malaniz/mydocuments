@@ -43,8 +43,7 @@ whatever solutions there are out there. The big problem with it, is:
 Take a look on the guidelines for colors and how they implement every color on
 themes. If you want to follow the guidelines, you'll need to define a color palette.
 And for each palette you'll need to define hue and shades.
-[Check the color system here]
-(https://material.io/guidelines/style/color.html#color-color-system) and they
+[Check the color system here](https://material.io/guidelines/style/color.html#color-color-system) and they
 even have a [tool](https://material.io/color/#!/?view.left=0&view.right=0) to
 ensure your palette color meets accessibility standards, with sufficient
 contrast between elements.
