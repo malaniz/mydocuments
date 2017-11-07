@@ -44,7 +44,7 @@ Take a look on the guidelines for colors and how they implement every color on
 themes. If you want to follow the guidelines, you'll need to define a color palette.
 And for each palette you'll need to define hue and shades.
 [Check the color system here](https://material.io/guidelines/style/color.html#color-color-system) and they
-even have a [tool](https://material.io/color/#!/?view.left=0&view.right=0) to
+even have a [tool]() to
 ensure your palette color meets accessibility standards, with sufficient
 contrast between elements.
 
@@ -66,13 +66,20 @@ not MUI things with css-modules or another css based technique.
 object there and simulating something like JSS modules.
 
 
+Points to know about both solutions
+===================================
+
 | Point | Option 1 | Option 2 |
 | ----- |:--------:|:--------:|
 | Over Engineering | YES | NO |
 | Good Performance on DEV | NO | YES |
 | Optimized for production | YES | YES |
 | Themeable | NO | YES |
-|  | NO | YES |
+| CSS rules | YES | YES |
+| media rules  | YES | YES |
+| styles in a CSS file  | YES | NO* |
+
+* the Jss rules can be placed on a separated file. But it will not be a CSS.
 
 
 
